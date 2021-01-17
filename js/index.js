@@ -238,7 +238,7 @@ function onMouseDown(event) {
 
                         info.innerHTML = "I'm Rahul <span>Singh Parihar</span>,";
                         subtitle.innerHTML = "A <span>Developer</span> from <span>Delhi (India)</span><br/> I love turning exciting <span>ideas</span> into beautiful <span>products.</span>";
-                        description.innerHTML = "Greater Noida Institute of Technology (GNIT), Greater Noida, Class of <span>2023</span><br/><a target='_blank' href='https://github.com/sumitd913/sumitd913.github.io/raw/master/Sumit_Debnath_Resume.pdf'>Offline Resume</a><br/><br/><div>Click on the other planets to learn more ...<div>";
+                        description.innerHTML = "Greater Noida Institute of Technology (GNIT), Greater Noida, Class of <span>2023</span><br/><a target='_blank' href='https://github.com/rahulsparihar/rahulsparihar.github.io/raw/main/Rahul_parihar_Resume.pdf'>Offline Resume</a><br/><br/><div>Click on the other planets to learn more ...<div>";
                     }
                     if (planetViewed == 2 || planetViewed==3 || planetViewed==4) {
                         planetViewed = 1;
@@ -265,7 +265,7 @@ function onMouseDown(event) {
 
                         info.innerHTML = "I'm Rahul <span>Singh Parihar</span>,";
                         subtitle.innerHTML = "A <span>Developer</span> from <span>Delhi (India)</span><br/> I love turning exciting <span>ideas</span> into beautiful <span>products.</span>";
-                        description.innerHTML = "Greater Noida Institute of Technology (GNIT), Greater Noida, Class of <span>2023</span><br/><a target='_blank' href='https://github.com/sumitd913/sumitd913.github.io/raw/master/Sumit_Debnath_Resume.pdf'>Offline Resume</a><br/><br/><div>Click on the other planets to learn more ...<div>";
+                        description.innerHTML = "Greater Noida Institute of Technology (GNIT), Greater Noida, Class of <span>2023</span><br/><a target='_blank' href='https://github.com/rahulsparihar/rahulsparihar.github.io/raw/main/Rahul_parihar_Resume.pdf'>Offline Resume</a><br/><br/><div>Click on the other planets to learn more ...<div>";
 
                     }
                 }
@@ -302,7 +302,7 @@ function onMouseDown(event) {
                    if (currentcolor == 0xffc12d) {
                     if (planetViewed == 1 || planetViewed==2 || planetViewed==4) {
                         planetViewed = 3;
-                        info.innerHTML = '<span id="couleur">Super Mario</span> Project : <a target="_blank" href="https://github.com/sumitdnath/SuperCoinMan" style="font-size: 22px; color: white;">Github <a> ';
+                        info.innerHTML = '<span id="couleur">Super Mario</span> Project : <a target="_blank" href="https://github.com/rahulsparihar/SuperCoinMan" style="font-size: 22px; color: white;">Github <a> ';
                          document.getElementById('couleur').style.color="#ffc12d";
                         subtitle.innerHTML = "Since <span>January 2019</span>.";
                         description.innerHTML = "Mobile Gaming App For Old School Gamers <br/><br/><div>Click on the other planets to learn more ...<div>";
@@ -380,7 +380,7 @@ function animate() {
     sun3.rotation.z += 0.008;
     earthPivot.rotation.z += 0.006;
     earthPivot2.rotation.z += 0.01;
-    earthPivot3.rotation.y += 0.007; 
+    earthPivot3.rotation.y += 0.007;
     earthPivot4.rotation.z+=0.008;
     requestAnimationFrame(animate);
     controls.update();
