@@ -380,7 +380,7 @@ function animate() {
     sun3.rotation.z += 0.008;
     earthPivot.rotation.z += 0.006;
     earthPivot2.rotation.z += 0.01;
-    earthPivot3.rotation.y += 0.007;
+    earthPivot3.rotation.y += 0.007; 
     earthPivot4.rotation.z+=0.008;
     requestAnimationFrame(animate);
     controls.update();
