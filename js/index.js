@@ -274,7 +274,7 @@ function onMouseDown(event) {
                         planetViewed = 2;
                         info.innerHTML = '<span id="couleur">Projects</span>';
                         document.getElementById('couleur').style.color="#26D7E7";
-                        subtitle.innerHTML = "Since <span>March 2018</span>.";
+                        subtitle.innerHTML = "Since <span>March 2019</span>.";
                         description.innerHTML = "You can find all my experiments here :  <br/><a target='_blank' href='https://github.com/rahulsparihar?tab=repositories'>my Repo's</a><br/><br/><div>Click on the other planets to learn more ...<div>";
 
                         TweenMax.from($('#content'), 0.5, {
@@ -302,10 +302,10 @@ function onMouseDown(event) {
                    if (currentcolor == 0xffc12d) {
                     if (planetViewed == 1 || planetViewed==2 || planetViewed==4) {
                         planetViewed = 3;
-                        info.innerHTML = '<span id="couleur">Super Mario</span> Project : <a target="_blank" href="https://github.com/rahulsparihar/SuperCoinMan" style="font-size: 22px; color: white;">Github <a> ';
+                        info.innerHTML = '<span id="couleur">Physique </span> Project : <a target="_blank" href="https://github.com/rahulsparihar/SuperCoinMan" style="font-size: 22px; color: white;">Github <a> ';
                          document.getElementById('couleur').style.color="#ffc12d";
                         subtitle.innerHTML = "Since <span>January 2019</span>.";
-                        description.innerHTML = "Mobile Gaming App For Old School Gamers <br/><br/><div>Click on the other planets to learn more ...<div>";
+                        description.innerHTML = "E-commors website for shooping  <br/><br/><div>Click on the other planets to learn more ...<div>";
 
                         TweenMax.from($('#content'), 0.5, {
                             css: {
